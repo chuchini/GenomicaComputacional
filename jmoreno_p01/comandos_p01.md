@@ -3,7 +3,13 @@
 
 # Parte I.
 
-Para saber qué shell se está usando, ejecutamos el siguiente comando:
-"""
-    echo $0
-"""
+**Respuesta 1:** 
+bash
+```bash
+echo $0
+```
+**Respuesta 2:** 
+
+```bash
+mkdir data filtered raw_data meta scripts figures archive
+```
