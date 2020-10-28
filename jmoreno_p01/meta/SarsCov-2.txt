@@ -1,0 +1,9 @@
+La existencia del nuevo virus SARS-Cov-2 fue informada por primera vez en diciembre del 2019, por parte de las autoridades de china. 
+A partir de esa fecha se han hecho avances acerca de cómo funciona el vius y cómo es que infecta a los cuerpos humano. 
+Podemos englobar esto diciendo que el virus entra al cuerpo humano a través de gotículas procedentes de la nariz o boca de alguien que este infectado.
+
+Una vez dentro el virus se conecta a las celulas epiteliales de los pulmones a través de un receptor especifico en estas membranas e inyecta 
+su material genético a la célula, la cual a su vez copia y reacomoda, hace esto hasta llegar a un punto critico en el cual la célula se autodestruye 
+liberando mas coronavirus dentro del cuerpo y repitiendo el proceso, el sistema inmune del cuerpo puede actuar de una manera muy agresiva y agravar 
+la salud de la persona infectada. La mejor manera para evitar el contagio es lavándose las manos de manera frecuente con agua y jabón, evitando salir 
+de casa para ser contagiado o contagiar a más personas y permitir que la pandemia curse de manera lenta y no saturar los sistemas de salud de los países.

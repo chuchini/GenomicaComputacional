@@ -1,0 +1,8 @@
+Esta estructura consta de una subunidad de unión a receptores S1 y
+una subunidad de fusión de mebrana S2. El proposito de esta estructura
+es que, por medio de S1, unirse a un receptor en la superficie de la célula
+huésped para la unión viral, y por medio de S2, fusionar las membranas del huésped
+y del virus, permitiendo que los genomas virales entren en las células huésped.
+La unión del receptor y la fusión de las membranas son los pasos iniciales y críticos
+en el ciclo de infección por coronavirus. Por lo tanto su principal función es la del
+proceso de infección de las células del huésped (humano).
