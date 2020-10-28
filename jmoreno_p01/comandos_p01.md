@@ -85,3 +85,29 @@ Para mover los archivos al directorio `data\raw`
 ```bash
 mv sarscov2_assembly.fasta.gz sarscov2_genome.fasta sarscov2_genome.gff3 splike_a.faa splike_b.faa splike_c.faa SRR10971381_R1.fastq.gz SRR10971381_R2.fastq.gz ../../GenomicaComputacional/jmoreno_p01/data/raw_data/
 ```
+
+# Parte IV.
+
+**Respuesta 1:**
+```bash
+ln -s ../raw_data/splike_c.faa && ln -s ../raw_data/splike_b.faa && ln -s ../raw_data/splike_a.faa 
+```
+
+**Respuesta 2:**
+```bash
+touch glycoproteins.faa
+```
+
+**Respuesta 3:**
+```bash
+head -1 splike_a.faa 
+>pdb|6VXX|A Chain A, SARS-CoV-2 spike glycoprotein
+
+head -1 splike_b.faa 
+>pdb|6VXX|B Chain B, SARS-CoV-2 spike glycoprotein
+
+head -1 splike_c.faa 
+>pdb|6VXX|C Chain C, SARS-CoV-2 spike glycoprotein
+```
+
+**Respuesta 4:**
