@@ -111,3 +111,65 @@ head -1 splike_c.faa
 ```
 
 **Respuesta 4:**
+```bash
+less -n-1 splike* >> glycoproteins.faa 
+```
+
+**Respuesta 5:**
+```bash
+mv splike_*.faa ../../archive/
+```
+Una vez que movemos los archivos de lugar, las ligas simcólicas se rompen y si tratamos de acceder a ellas en el folder
+de `\data\filtered` nos marcara un error de: `No such file or directory`
+
+**Respuesta 6:**
+```bash
+head -3 sarscov2_genome.fasta && zless sarscov2_assembly.fasta.gz | head -3
+>NC_045512.2 Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+ATTAAAGGTTTATACCTTCCCAGGTAACAAACCAACCAACTTTCGATCTCTTGTAGATCTGTTCTCTAAA
+CGAACTTTAAAATCTGTGTGGCTGTCACTCGGCTGCATGCTTAGTGCACTCACGCAGTATAATTAATAAC
+>NODE_1_length_264_cov_161.042781
+CACAAATCTTAACACTCTTCCCTACACGACGCTCTTCCGATCTACGCCGGGCCATTCGTA
+CGAACCGATACCTGTGGTAAAGGGTCCTACTGTATGGTGGTACACGAGTAGTAGCAAATG
+```
+
+**Respuesta 7:**
+```bash
+grep '>' sarscov2_genome.fasta | wc -l && zless sarscov2_assembly.fasta.gz | grep '>' | wc -l
+1
+35
+```
+
+**Respuesta 8:**
+Utilizando lo que sabemos de los archivos .fastq (lo explicamos más a fondo en la siguiente pregunta) sabemos
+que la línea donde se encuentra la secuencia es donde puede haber un patrón como `AAA`, por lo tanto es posible
+utilizar para encontrar las secuencias. Sin embargo pienso que esto puede fallar para archivos más grandes, siendo
+mejor utilizar AWK para encontrar los codones de inicio y fin para delimitar una secuencia.
+```bash
+zless SRR10971381_R2.fastq.gz | head -12 | uniq -c | grep 'AAA' -c
+3
+```
+
+**Respuesta 9:**
+los archivos .faa y .fasta hacen referencia a lo mismo (pueden ser nucleótidos o aminoácidos) mientras que .fastqc también
+hace referencia a lo mismo pero tiene el siguiente formato:
+1. Una línea que empieza con `@`, conteniendo el ID de la secuencia.
+2. Una o más líneas que contienen la secuencia.
+3. Una nueva línea que empieza con el caracter `+`, y empieza en blanco o reptiendo el ID de la secuencia.
+4. Una o más líneas que contienen el puntaje de calidad.
+Siendo esta última la característica diferente. Un registro FASTQ contiene una secuencia de puntuaciones de calidad para cada nucleótido.
+
+**Respuesta 10:**
+La diferencia radica en la forma en que la información es desplegada, es decir, `less sequence.gff3` nos muestra un archivo desordenado del cual
+es difícil entender su estructura original, mientras que usando `less -S sequence.gff3` nos encontramos con una mejor estructura visible, siendo
+que podemos notar que no hay salto de líneas que interrumpan el texto, sino que la pantalla abarca todo el contenido, línea por línea, siendo que
+para movernos entre la información hay que movernos entre derecha e izquierda para leer toda la información. Lo despliega en columnas.
+
+**Respuesta 11:**
+```bash
+cut -f3 sarscov2_genome.gff3 | grep 'gene' -c
+11
+```
+El campo 3 nos muestra información de si es gene o CDS, entre otras más.
+COn base a la documentación encontré que se describe el algoritmo o el 
+procedimiento que generó esta característica. Normalmente, Genescane o Genebank, respectivamente.
