@@ -2,7 +2,7 @@
 
 ## Introducción
 
-La filogenia ayuda a los científicos a organizar especies u otros grupos de formmas que representen nuestro
+La filogenia ayuda a los científicos a organizar especies u otros grupos de formas que representen nuestro
 entendimiento de cómo evolucionaron antepasados comunes. El punto de partida para conocer la filogenia de los
 organismos es establecer sus coincidencias en custiones como lo son el ADN, la morfología, la embriología, entre
 otros. Hay organismos que están en estrecha relación con otros en materia evolutiva porque por ejemplo,
@@ -47,7 +47,6 @@ Los métodos utilizados para realizar esta investigación son los siguientes:
 
 * Filogenias
     + Filogenética molecular
-        - Método de máxima verosimilitud para la obtención de los árboles filogenéticos
 
 Para lograr lo anterior se usará en gran medida múltiples datos secuenciados de la página
 **National Center for Biotechnology Information** (la cual ya ha sido usada en prácticas de laboratior
