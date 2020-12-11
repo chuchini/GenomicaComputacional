@@ -10,4 +10,6 @@
 |    -------------------    |    -------------------    |    -----------    |   ----    |    ---------------    |    -------    |    ---------------    |
 |Primera generación         |                           |                   |           |                       |               |                       |
 |Sanger/Life Technologies   |800                        |1                  |2 hrs      |2400                   |0.3            |Dideoxy termminator    |
-|
+|Segunda generación         |                           |                   |           |                       |               |                       |
+|454 GS FLX+/Rocche/70 Mb   |700                        |1x10⁶              |24 - 48 hrs|10                     |1              |Pirosecuenciación      |
+|GS Junior/Roche/70 Mb      |500                        1x10⁵               |18 hrs     |9                      |NA             |Pirosecuenciación      |
