@@ -24,3 +24,19 @@ computacionales que se usan para llegar a las conclusiones que obtendremos al fi
 todas las posibilidades que nos brindan.
 
 ## Objetivo
+
+Para esta investigación se buscará conocer los origines de múltiples especies, además de identificar dos familias (posiblemente caninas y felinas),
+de esta manera podremos observar su parentesco y saber qué animal pertenece a cada una de dichas familias y, finalmente, de donde proviene el origen 
+de estas epecies. Lo anterior nos servirá para ejemplificar el uso de diversas herramientas bioinformáticas utiles para la realización de este
+proyecto de investigación. Conforme avancemos vamos a ir describiendo este proceso y la herramienta utilizada.
+
+## Hipótesis
+
+En caso de hacer la investigación sobre las familias Caninas y Felinas, nuestra hipótesis será la siguiente:
+
+> 
+
+# Metodología tentativa
+
+Los métodos utilizados para realizar esta investigación son los siguientes:
+
