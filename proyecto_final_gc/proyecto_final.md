@@ -40,3 +40,25 @@ En caso de hacer la investigación sobre las familias Caninas y Felinas, nuestra
 
 Los métodos utilizados para realizar esta investigación son los siguientes:
 
+* Estudio de genes
+    + Transcripción de ARN mensajero
+    + Transcripción de ARN ribosómico
+    + Transcripción de ARN de transferencia
+
+* Comparación de secuencias homólogas mediante alineamientos de secuencias múltiples
+    + Construcción de las filogenias
+
+* Filogenias
+    + Filogenética molecular
+        - Método de máxima verosimilitud para la obtención de los árboles filogenéticos
+
+Para lograr lo anterior se usará en gran medida múltiples datos secuenciados de la página
+**National Center for Biotechnology Information** (la cual ya ha sido usada en prácticas de laboratior
+de este curso), así mismo se está evaluando la posibilidad de programar los árboles de filogenia para
+llegar a los resultados o, por el contrario, apoyarse en herramientas online como lo son **FigTree** o
+combinar un poco de ambas, dada la complejidad de mostrar gráficamente este tipo de estructuras.
+
+De igual manera se hará uso de **BLAST** (Basic Local Alignment Search Tool), con esta herramienta se
+pretende hacer la comparación de secuencias.
+
+Todavía queda por definir mejor la metodología que será usada al final.
