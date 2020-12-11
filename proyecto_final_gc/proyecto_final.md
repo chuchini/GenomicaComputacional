@@ -34,7 +34,7 @@ proyecto de investigación. Conforme avancemos vamos a ir describiendo este proc
 
 En caso de hacer la investigación sobre las familias Caninas y Felinas, nuestra hipótesis será la siguiente:
 
-> 
+> Las familias Caninas y Felinas tienen un ancestro en común aunque las especies hoy en día muestren grandos rasgos de diferencias.
 
 # Metodología tentativa
 
