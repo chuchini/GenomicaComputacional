@@ -41,9 +41,6 @@ En caso de hacer la investigación sobre las familias Caninas y Felinas, nuestra
 Los métodos utilizados para realizar esta investigación son los siguientes:
 
 * Estudio de genes
-    + Transcripción de ARN mensajero
-    + Transcripción de ARN ribosómico
-    + Transcripción de ARN de transferencia
 
 * Comparación de secuencias homólogas mediante alineamientos de secuencias múltiples
     + Construcción de las filogenias
