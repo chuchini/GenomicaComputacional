@@ -36,7 +36,7 @@ En caso de hacer la investigación sobre las familias Caninas y Felinas, nuestra
 
 > Las familias Caninas y Felinas tienen un ancestro en común aunque las especies hoy en día muestren grandos rasgos de diferencias.
 
-# Metodología tentativa
+## Metodología tentativa
 
 Los métodos utilizados para realizar esta investigación son los siguientes:
 
